@@ -22,6 +22,8 @@ spring:
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
     topic:
       account: account-events
+    properties:
+      enable.auto.commit: true
 eureka:
   client:
     service-url:
